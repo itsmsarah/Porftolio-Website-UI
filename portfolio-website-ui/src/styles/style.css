@@ -1,0 +1,80 @@
+@import url(./global.css);
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 600px;
+    margin:84.79px 0px 106.06px 0px;
+    
+}
+.nav-header ul{
+    display: flex;
+    gap: 57px;
+    list-style: none;
+}
+.nav-header ul a{
+    text-decoration: none; 
+    color: var(--color--neutral--white);
+    text-transform: uppercase;
+}
+.logo p{
+    color: var(--color--neutral--white);
+    text-transform: uppercase;
+    font-family: var( --font--family--inter);
+}
+
+.paragrafo-main{
+    color: var(--color--neutral--white);
+    width: 390.9px;
+    margin-left: 109.73px;
+}
+main{
+    position: relative;
+    width: 100%;
+}
+.principal-text{
+    position: absolute;
+    color: var(--color--neutral--white);
+    font-family: var(--font--family--playfair);
+    left: 50%;
+    top: 50%;
+    font-size:120px;
+    text-align: center;
+    line-height: 0.9;
+    transform: translate(-50%, -50%);
+}
+.img-esquerda img{
+    width: 577.09px;
+    height: 433.07px;
+
+}
+.img-esquerda{
+    display: flex;
+    justify-content:start;
+}
+.content-img-button{
+    position: relative;
+}
+.quote{
+    position: absolute;
+   bottom: 50px;
+   left: 760px;
+   padding: 13.06px 19px 13.06 19.76px;
+   font-size: 38.41px;
+   color: var( --color--primary--black);
+   width: 260.96px;
+   font-weight: bold;
+   font-family: var(--font--family--inter);
+}
+
+.img-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.img-direita img{
+    width: 604.92px;
+    height: 535.63px;
+
+}
