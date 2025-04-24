@@ -70,3 +70,29 @@ main{
     z-index: -1;
     transform: translate(-520px,270px);
 }
+/* FIM DO MAIN */
+.portfolio{
+    margin-top: 212.42px;
+}
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74.23px;
+}
+.h1-portolio{
+    color: var(--color--neutral--white);
+    font-family: var(--font--family--playfair);
+}
+.photos-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.photos-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
