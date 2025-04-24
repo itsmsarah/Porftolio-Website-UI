@@ -23,58 +23,50 @@ header {
     text-transform: uppercase;
     font-family: var( --font--family--inter);
 }
-
-.paragrafo-main{
-    color: var(--color--neutral--white);
-    width: 390.9px;
-    margin-left: 109.73px;
-}
+/* COMEÇO DO MAIN */
 main{
-    position: relative;
-    width: 100%;
-}
-.principal-text{
-    position: absolute;
-    color: var(--color--neutral--white);
-    font-family: var(--font--family--playfair);
-    left: 50%;
-    top: 50%;
-    font-size:120px;
-    text-align: center;
-    line-height: 0.9;
-    transform: translate(-50%, -50%);
-}
-.img-esquerda img{
-    width: 577.09px;
-    height: 433.07px;
-
-}
-.img-esquerda{
-    display: flex;
-    justify-content:start;
-}
-.content-img-button{
-    position: relative;
-}
-.quote{
-    position: absolute;
-   bottom: 50px;
-   left: 760px;
-   padding: 13.06px 19px 13.06 19.76px;
-   font-size: 38.41px;
-   color: var( --color--primary--black);
-   width: 260.96px;
-   font-weight: bold;
-   font-family: var(--font--family--inter);
-}
-
-.img-direita {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
 }
-.img-direita img{
-    width: 604.92px;
-    height: 535.63px;
+   
 
+.main-content p{
+    width: 678.9px;
+    display: flex;
+    justify-self:start;
+    padding: 0px 232.83px 25px 0prto;
+    color:var(--color--neutral--white);
+    font-family: var(  --font--family--inter);
+    font-size: 24px;
+}
+.main-content h1{
+    width: 1188px;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    color: var(--color--neutral--white);
+    font-family: var(  --font--family--playfair);
+    font-size: 342px;
+    line-height: 0.7;
+}
+.quote{
+    width: 260.96;
+    padding:13.06px 19px 13.08px 19.96px;
+    font-size: 38.41px;
+    position: relative;
+    transform: translate(680px,170px );
+    background-color: var(--color--neutral--white);
+    font-family: var(--font--family--inter);
+    font-weight: 600;
+}
+.img-direita{
+    position: absolute ;
+    z-index: -1;
+    transform: translate(510px);
+}
+.img-esquerda{
+    position: absolute;
+    z-index: -1;
+    transform: translate(-520px,270px);
 }

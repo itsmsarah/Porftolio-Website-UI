@@ -4,12 +4,12 @@
     border: 0px;
 }
 body{
+    margin: 0 auto;
+    width: 1510px;
+    height: 8968px;
+    border: 1px solid #FFFFFF;
     background-color: var(--color--primary--black);
 }
-p{
-    color: var();
-}
-
 :root{
     --color--neutral--white:#FFFFFF;
     --color--neutral--grey:#BBBBBB;
