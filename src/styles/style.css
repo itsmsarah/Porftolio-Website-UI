@@ -72,7 +72,10 @@ main{
 }
 /* FIM DO MAIN */
 .portfolio{
+    display: flex;
+    flex-direction: column;
     margin-top: 212.42px;
+    align-items: center;
 }
 .photos{
     display: flex;
@@ -80,9 +83,14 @@ main{
     justify-content: center;
     gap: 74.23px;
 }
-.h1-portolio{
+.portfolio h2{
+    margin-top: 212.47px;
+    margin-bottom: 71.74px;
     color: var(--color--neutral--white);
     font-family: var(--font--family--playfair);
+    align-items: center;
+    font-size: 81.31px;
+    font-weight: lighter;
 }
 .photos-left{
     display: flex;
