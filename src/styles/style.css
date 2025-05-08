@@ -1,5 +1,6 @@
 @import url(./global.css);
 
+
 header {
     display: flex;
     justify-content: center;
@@ -104,3 +105,42 @@ main{
     align-items: center;
     gap: 80px;
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 382.82px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71.77px;
+}
+.about h2{
+    color: var(--color--neutral--white);
+    font-family: var(--font--family--playfair);
+    align-items: center;
+    font-size: 81.31px;
+    font-weight: lighter;
+    margin-bottom: 70.93px;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.about-content p{
+    color: var(--color--neutral--white);
+    font-size: 40px;
+    font-family: var(--font--family--inter);
+    width: 633.18px;
+    font-weight:normal;
+
+}
+/* .about-content p:nth-of-type(1){
+    margin-bottom: 20px;
+} */
