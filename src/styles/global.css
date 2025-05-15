@@ -6,7 +6,7 @@
 body{
     margin: 0 auto;
     width: 1510px;
-    height: 8968px;
+    /* height: 8968px; */
     border: 1px solid #FFFFFF;
     background-color: var(--color--primary--black);
 }
