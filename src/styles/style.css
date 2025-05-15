@@ -290,20 +290,27 @@ fieldset label{
     color: var(--color--neutral--white);
     font-size: 44.75px;
     font-weight: lighter;
+    align-self: self-start;
 }
 fieldset input{
     background: none;
     border-bottom: 1px solid var(--color--neutral--white);
     margin-bottom: 58.52px;
+    padding: 10px 0px;
+    width: 100%;
 }
 fieldset textarea{
+    width: 100%;
     background: none;
     margin-bottom: 58.52px;
+    border-bottom: 1px solid var(--color--neutral--white);
 }
 input::placeholder{
    color: var( --color--neutral--grey);
    /* font-size:25px; */
    font-family: var(--font--family--inter);
+   padding: 10px 0px;
+  
 }
 legend{
     color: var(--color--neutral--white);
@@ -315,7 +322,7 @@ legend{
 fieldset button{
     display: flex;
     flex-direction: column;
-    align-items: center;
+   align-self: self-start;
     padding: 13px 54px;
     background-color: var(--color--neutral--white);
     color: var(--color--neutral--black);
