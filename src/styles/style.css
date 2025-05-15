@@ -69,7 +69,7 @@ main{
 .img-esquerda{
     position: absolute;
     z-index: -1;
-    transform: translate(-520px,270px);
+    transform: translate(-490px,270px);
 }
 /* FIM DO MAIN */
 .portfolio{
@@ -272,3 +272,51 @@ main{
     margin-top: 109px;
     padding: 25px 24px;
 }
+/* COMEÇO DO FORM */
+form{
+    width: 835px;
+    margin: 0 auto;
+    margin-top: 328.77px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+   
+}
+fieldset label{
+    font-family: var(--font--family--inter);
+    color: var(--color--neutral--white);
+    font-size: 44.75px;
+    font-weight: lighter;
+}
+fieldset input{
+    background: none;
+    border-bottom: 1px solid var(--color--neutral--white);
+    margin-bottom: 58.52px;
+}
+fieldset textarea{
+    background: none;
+    margin-bottom: 58.52px;
+}
+input::placeholder{
+   color: var( --color--neutral--grey);
+   /* font-size:25px; */
+   font-family: var(--font--family--inter);
+}
+legend{
+    color: var(--color--neutral--white);
+    font-size: 81.31px;
+    font-family: var(--font--family--playfair);
+    font-weight: lighter;
+    text-align: center;
+}
+fieldset button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 54px;
+    background-color: var(--color--neutral--white);
+    color: var(--color--neutral--black);
+}
+/* FIM DO FORMS */
